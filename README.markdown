@@ -1,3 +1,15 @@
+# Fork for maximally lazy clojure developers #
+
+in project.clj
+```
+[org.clojars.pdoctor/storm-json "0.0.1"]
+```
+
+in your code
+```
+(:import [com.rapportive.storm.scheme SimpleJSONScheme]))
+```
+
 # storm-json: JSON Serialisation for Storm #
 
 storm-json provides JSON serialisation support for
